@@ -1,0 +1,6 @@
+#查看所有窗口命令
+ps -ef|grep -i vnc
+#杀死窗口
+kill -9 进程号
+#新建窗口
+vncserver :窗口号 -geometry 1920x1080
